@@ -29,7 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-SECURE_SSL_REDIRECT = True
+#是否开启https
+#SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Application definition
 
