@@ -37,6 +37,10 @@ DNSLog 基于 Django 框架编写，将 DNSServer 集成进 DNSLog 中，使用�
 
 2. 安装依赖环境
 
+
+需要python2环境，如果使用python3环境会出现 “ No module named 'models' ”
+
+
  DNSLog 使用前需要安装 Django 1.8 与 dnslib ，如果已经安装可跳过此步
 
  ```
